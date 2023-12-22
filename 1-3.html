@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function formatName(firstName, lastName) {
+        let formattedName = "";
+
+        !firstName || !lastName
+          ? console.log("輸入錯誤")
+          : (formattedName += firstName + " " + lastName);
+
+        return formattedName;
+      }
+
+      // 原因：原本的判斷式內容重複 將其整理成同一個三元判斷式
+
+    </script>
+  </body>
+</html>
